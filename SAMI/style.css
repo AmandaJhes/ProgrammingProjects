@@ -13,7 +13,7 @@ body {
 @media (min-width: 768px) {
 
   header {
-    padding-top: 18px;
+    /* padding-top: 18px; */
     position: relative;
     z-index: 2;
   }  
@@ -51,7 +51,7 @@ body {
 
 .first-container {
   padding: 0;
-  height: 900px;
+  height: 820px;
 }
 
 
@@ -127,3 +127,59 @@ body {
       margin-top: 7rem;
     }
   }  
+
+  @media (max-width: 300px){
+    .first-container {
+      padding: 0;
+      height: 225px;
+    }
+  }
+
+  @media (min-width: 301px) and (max-width: 400px){
+    .first-container {
+      padding: 0;
+      height: 280px;
+    }
+  }
+
+  @media (min-width: 401px) and (max-width: 500px){
+    .first-container {
+      padding: 0;
+      height: 295px;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 820px){
+    .first-container {
+      padding: 0;
+      height: 510px;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 550px){
+    .first-container {
+      padding: 0;
+      height: 370px;
+    }
+  }
+
+  @media (min-width: 821px) and (max-width: 912px){
+    .first-container {
+      padding: 0;
+      height: 590px;
+    }
+  }
+
+  @media (min-width: 913px) and (max-width: 1024px){
+    .first-container {
+      padding: 0;
+      height: 645px;
+    }
+  }
+
+  @media (min-width: 1025px){
+    .first-container {
+      padding: 0;
+      height: 825px;
+    }
+  }
