@@ -1,6 +1,10 @@
 
 /* CONFIGURAÇÕES DO BODY 
 --------------------------------------------------- */
+*{
+  scroll-behavior: smooth;
+}
+
 body {
     padding-top: 0;
     padding-bottom: 3rem;
@@ -105,6 +109,21 @@ body {
     letter-spacing: -.05rem;
   }
   
+  .btn-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 100%;
+    display: none;
+  }
+
+  .btn-topo img{
+    width: 60px;
+    height: 60px;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
