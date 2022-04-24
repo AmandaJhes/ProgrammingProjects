@@ -9,6 +9,8 @@ body {
     padding-top: 0;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
 }
 
 /* MENU DE NAVEGAÇÂO 
@@ -62,19 +64,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -96,9 +85,12 @@ body {
   
   /* Featurettes
   ------------------------- */
+  .featurette {
+    padding: 3rem;
+  }
   
   .featurette-divider {
-    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 1rem 0; /* Space out the Bootstrap <hr> more */
   }
   
   /* Thin out the marketing headings */
@@ -126,6 +118,50 @@ body {
     height: 30px;
   }
   
+
+  /* DIV BENEFITS */
+
+  #benefitsRow {
+    background-color: rgb(13, 121, 189);
+    color: #ffffff;
+  }
+
+  #benefitsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #benefitsButton {
+    padding-top: 2rem;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  #benefitsButton .btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #ulList {
+    list-style-type: square;
+  }
+
+  #benefitList ul li {
+    margin-bottom: 1rem;
+  }
+
+  li::marker {
+    text-align: center;
+  }
+
+
+
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
