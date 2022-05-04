@@ -4,7 +4,7 @@ window.onscroll = function(){
 
 function scroll(){
     let btn = document.querySelector('.btn-topo');
-    if(document.documentElement.scrollTop > 300){
+    if(document.documentElement.scrollTop > 1500){
         btn.style.display = 'block';
     }else{
         btn.style.display = 'none';
