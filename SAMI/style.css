@@ -92,7 +92,7 @@ body {
     border-top: solid 2px #42bd097a;
     margin-left: 1rem;
     margin-right: 1rem;
-    box-shadow: 1px 10px 20px rgba(128, 128, 128, 0.432);
+    box-shadow: 1px 2px 5px rgba(15, 105, 27, 0.39);
     /* box-shadow: 0 40px 90px -30px rgb(0 0 0 / 25%); */
     transition: all .4s ease;
     transition-property: all;
@@ -108,14 +108,14 @@ body {
    }
 
   .servicesCol:hover {
-    background-color: #69bf84;
+    /* background-color: #69bf84; */
     border-top: solid 2px rgb(4, 63, 131);
-    color: white; 
+    /* color: white;  */
     transition: .5s;
   }
 
   .servicesCol .btn:hover {
-    background-color: #ffffff;
+    background-color: #25d366;
     color: black;
   }
 
